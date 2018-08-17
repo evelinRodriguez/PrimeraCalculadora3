@@ -4,11 +4,19 @@
  * and open the template in the editor.
  */
 package miprimeracalculadoraorientadaaobjetos;
-
+import static java.lang.Math.*;
 /**
  *
  * @author Estudiantes
  */
 public class calculadoratrigonometrica {
-    
+    double call;
+    double inversa;
+}
+
+
+
+ double seno(){
+
+
 }
