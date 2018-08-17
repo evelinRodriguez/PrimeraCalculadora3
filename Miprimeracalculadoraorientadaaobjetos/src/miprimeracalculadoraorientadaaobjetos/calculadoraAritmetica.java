@@ -15,7 +15,7 @@ public class calculadoraAritmetica {
     int operando2;
     int residuo;
     void meterNumeros(){
-        System.out.println("digita el primer numero : ");
+        System.out.println("digita el primer numero Evelin: ");
         operando1 = entrada.nextInt();
         System.out.println("digita el segundo numero : ");
         operando2 = entrada.nextInt();
