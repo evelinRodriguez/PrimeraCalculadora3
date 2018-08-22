@@ -17,12 +17,12 @@ public class Miprimeracalculadoraorientadaaobjetos {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);//sin esta cuestion no se pueden meter datos!!!
         //definir objeto
-        calculadoraAritmetica miCalculadora;
-        miCalculadora=new calculadoraAritmetica();
-        calculadoratrigonometrica miCalculadora1;                                    // crear objeto
-        miCalculadora1=new calculadoratrigonometrica();
+        CalculadoraAritmetica miCalculadora;
+        miCalculadora=new CalculadoraAritmetica();
+        CalculadoraTrigonometrica miCalculadora1;                                    // crear objeto
+        miCalculadora1=new CalculadoraTrigonometrica();
         miCalculadora.meterNumeros();
-        miCalculadora1.meterNumeros1();
+       
         
         System.out.print("selecciones operacion:\n1.sumar\n2.restar\n3.multiplicar\n4.dividir\n5.residuo\n6.seno\n7.coseno\n8.tangente\n9.arcoseno\n10.arccoseno\n11.arctangente"
                 + "\n digite su respuesta :");
