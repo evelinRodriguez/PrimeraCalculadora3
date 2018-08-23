@@ -23,13 +23,132 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="400" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="148" max="-2" attributes="0"/>
+                      <Component id="botonA" min="-2" pref="199" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="Bseno" min="-2" pref="103" max="-2" attributes="0"/>
+                          <Component id="Bseno4" min="-2" pref="103" max="-2" attributes="0"/>
+                          <Component id="Bseno1" min="-2" pref="103" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Bseno3" min="-2" pref="103" max="-2" attributes="0"/>
+                          <Component id="Bseno2" min="-2" pref="103" max="-2" attributes="0"/>
+                          <Component id="Bseno5" alignment="0" min="-2" pref="103" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                      <Component id="Bigual" min="-2" pref="218" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="Multiplicacion" alignment="0" pref="59" max="32767" attributes="0"/>
+                  <Component id="Suma" max="32767" attributes="0"/>
+                  <Component id="Division" max="32767" attributes="0"/>
+                  <Component id="Resta" alignment="0" min="-2" pref="58" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="53" max="32767" attributes="0"/>
+          </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <EmptySpace min="0" pref="300" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="botonA" min="-2" pref="52" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Bseno5" alignment="3" min="-2" pref="52" max="-2" attributes="0"/>
+                  <Component id="Bseno1" alignment="3" min="-2" pref="52" max="-2" attributes="0"/>
+                  <Component id="Suma" alignment="3" min="-2" pref="52" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Division" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                  <Component id="Bseno3" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                  <Component id="Bseno4" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Bseno" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                  <Component id="Bseno2" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                  <Component id="Resta" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="Multiplicacion" pref="46" max="32767" attributes="0"/>
+                  <Component id="Bigual" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+          </Group>
       </Group>
     </DimensionLayout>
   </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="botonA">
+    </Component>
+    <Component class="javax.swing.JButton" name="Suma">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="+"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Resta">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Multiplicacion">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="x"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Division">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="/"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Bseno">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="seno"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Bseno1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="seno"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Bseno2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="seno"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Bseno3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="seno"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Bseno4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="seno"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Bseno5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="seno"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="Bigual">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="="/>
+      </Properties>
+    </Component>
+  </SubComponents>
 </Form>
