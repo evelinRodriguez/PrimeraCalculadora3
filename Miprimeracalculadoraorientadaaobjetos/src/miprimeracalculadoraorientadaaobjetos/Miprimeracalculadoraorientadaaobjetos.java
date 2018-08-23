@@ -17,10 +17,10 @@ public class Miprimeracalculadoraorientadaaobjetos {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);//sin esta cuestion no se pueden meter datos!!!
         //definir objeto
-        CalculadoraAritmetica miCalculadora;
-        miCalculadora=new CalculadoraAritmetica();
-        CalculadoraTrigonometrica miCalculadora1;                                    // crear objeto
-        miCalculadora1=new CalculadoraTrigonometrica();
+        calculadoraAritmetica miCalculadora;
+        miCalculadora=new calculadoraAritmetica();
+        calculadoratrigonometrica miCalculadora1;                                    // crear objeto
+        miCalculadora1=new calculadoratrigonometrica();
         miCalculadora.meterNumeros();
        
         

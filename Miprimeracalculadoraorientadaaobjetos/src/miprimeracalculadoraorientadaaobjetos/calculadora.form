@@ -25,35 +25,39 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="Bcosecante" min="-2" pref="103" max="-2" attributes="0"/>
+                                  <Component id="Btangente" min="-2" pref="103" max="-2" attributes="0"/>
+                                  <Component id="Bseno1" min="-2" pref="103" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Bsecante" min="-2" pref="103" max="-2" attributes="0"/>
+                                  <Component id="Bcotangente" min="-2" pref="103" max="-2" attributes="0"/>
+                                  <Component id="Bcoseno" alignment="0" min="-2" pref="103" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                              <Component id="Bigual" min="-2" pref="218" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="Multiplicacion" alignment="0" pref="59" max="32767" attributes="0"/>
+                          <Component id="Suma" max="32767" attributes="0"/>
+                          <Component id="Division" max="32767" attributes="0"/>
+                          <Component id="Resta" alignment="0" min="-2" pref="58" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="148" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="120" max="-2" attributes="0"/>
                       <Component id="botonA" min="-2" pref="199" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="Bseno" min="-2" pref="103" max="-2" attributes="0"/>
-                          <Component id="Bseno4" min="-2" pref="103" max="-2" attributes="0"/>
-                          <Component id="Bseno1" min="-2" pref="103" max="-2" attributes="0"/>
-                      </Group>
-                      <EmptySpace min="-2" pref="42" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Component id="Bseno3" min="-2" pref="103" max="-2" attributes="0"/>
-                          <Component id="Bseno2" min="-2" pref="103" max="-2" attributes="0"/>
-                          <Component id="Bseno5" alignment="0" min="-2" pref="103" max="-2" attributes="0"/>
-                      </Group>
-                  </Group>
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
-                      <Component id="Bigual" min="-2" pref="218" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                  <Component id="Multiplicacion" alignment="0" pref="59" max="32767" attributes="0"/>
-                  <Component id="Suma" max="32767" attributes="0"/>
-                  <Component id="Division" max="32767" attributes="0"/>
-                  <Component id="Resta" alignment="0" min="-2" pref="58" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="53" max="32767" attributes="0"/>
           </Group>
@@ -66,20 +70,20 @@
               <Component id="botonA" min="-2" pref="52" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="Bseno5" alignment="3" min="-2" pref="52" max="-2" attributes="0"/>
+                  <Component id="Bcoseno" alignment="3" min="-2" pref="52" max="-2" attributes="0"/>
                   <Component id="Bseno1" alignment="3" min="-2" pref="52" max="-2" attributes="0"/>
                   <Component id="Suma" alignment="3" min="-2" pref="52" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="Division" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
-                  <Component id="Bseno3" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
-                  <Component id="Bseno4" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                  <Component id="Bsecante" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                  <Component id="Btangente" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="Bseno" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
-                  <Component id="Bseno2" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                  <Component id="Bcosecante" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
+                  <Component id="Bcotangente" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
                   <Component id="Resta" alignment="3" min="-2" pref="51" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
@@ -99,6 +103,10 @@
       <Properties>
         <Property name="text" type="java.lang.String" value="+"/>
       </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="SumaMouseClicked"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SumaActionPerformed"/>
+      </Events>
     </Component>
     <Component class="javax.swing.JButton" name="Resta">
       <Properties>
@@ -115,9 +123,9 @@
         <Property name="text" type="java.lang.String" value="/"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Bseno">
+    <Component class="javax.swing.JButton" name="Bcosecante">
       <Properties>
-        <Property name="text" type="java.lang.String" value="seno"/>
+        <Property name="text" type="java.lang.String" value="cosecante"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="Bseno1">
@@ -125,24 +133,24 @@
         <Property name="text" type="java.lang.String" value="seno"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Bseno2">
+    <Component class="javax.swing.JButton" name="Bcotangente">
       <Properties>
-        <Property name="text" type="java.lang.String" value="seno"/>
+        <Property name="text" type="java.lang.String" value="cotangente"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Bseno3">
+    <Component class="javax.swing.JButton" name="Bsecante">
       <Properties>
-        <Property name="text" type="java.lang.String" value="seno"/>
+        <Property name="text" type="java.lang.String" value="secante"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Bseno4">
+    <Component class="javax.swing.JButton" name="Btangente">
       <Properties>
-        <Property name="text" type="java.lang.String" value="seno"/>
+        <Property name="text" type="java.lang.String" value="tangente"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JButton" name="Bseno5">
+    <Component class="javax.swing.JButton" name="Bcoseno">
       <Properties>
-        <Property name="text" type="java.lang.String" value="seno"/>
+        <Property name="text" type="java.lang.String" value="coseno"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="Bigual">
