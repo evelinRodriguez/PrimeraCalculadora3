@@ -5,17 +5,42 @@
  */
 package miprimeracalculadoraorientadaaobjetos;
 
+     double operando1;
+     double operando2;
 /**
  *
  * @author Estudiantes
  */
 public class calculadora extends javax.swing.JFrame {
 
-    /**
-     * Creates new form calculadora
-     */
+   switch{
+ 
+    case 1:
+    
+      resultado=operando1+operando2
+    
+    case 2:          
+              
+      resultado=operando1-operando2;
+      
+    case 3;
+    
+      resultado= operando1*operando2
+      
+    case 4;
+    
+      resultado=operando1/operando2
+      
+    break;
+    
+    
+}
+    
+    
     public calculadora() {
         initComponents();
+        
+
     }
 
     /**
@@ -42,6 +67,17 @@ public class calculadora extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        botonA.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                botonAMouseClicked(evt);
+            }
+        });
+        botonA.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botonAActionPerformed(evt);
+            }
+        });
+
         Suma.setText("+");
         Suma.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -55,6 +91,11 @@ public class calculadora extends javax.swing.JFrame {
         });
 
         Resta.setText("-");
+        Resta.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                RestaMouseClicked(evt);
+            }
+        });
 
         Multiplicacion.setText("x");
 
@@ -63,6 +104,11 @@ public class calculadora extends javax.swing.JFrame {
         Bcosecante.setText("cosecante");
 
         Bseno1.setText("seno");
+        Bseno1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Bseno1MouseClicked(evt);
+            }
+        });
 
         Bcotangente.setText("cotangente");
 
@@ -138,13 +184,34 @@ public class calculadora extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void SumaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_SumaActionPerformed
-     
-        int operando1 = Integer.parseInt(operando1.getText());
+        
+        
     }//GEN-LAST:event_SumaActionPerformed
 
     private void SumaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_SumaMouseClicked
-        // TODO add your handling code here:
+        
+     
+        
+        
     }//GEN-LAST:event_SumaMouseClicked
+
+    private void botonAMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_botonAMouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_botonAMouseClicked
+
+    private void Bseno1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Bseno1MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Bseno1MouseClicked
+
+    private void botonAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonAActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_botonAActionPerformed
+
+    private void RestaMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_RestaMouseClicked
+        
+       
+        
+    }//GEN-LAST:event_RestaMouseClicked
 
     /**
      * @param args the command line arguments
@@ -152,7 +219,14 @@ public class calculadora extends javax.swing.JFrame {
     public static void main(String args[]) {
         
         calculadora miAritmetica;
-        miAritmetica=new calculadora();        
+        miAritmetica=new calculadora();
+        int operando1;
+        operando1=0;
+        int operando2;
+        operando2=0;
+       
+        
+                
             }
        
     
